@@ -9,4 +9,99 @@ html {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  color: white;
+  background: rgb(29, 6, 42);
+  background: linear-gradient(180deg, rgb(2, 1, 8) 0%, rgb(29, 6, 42) 100%);
+}
+
+h1 {
+  text-align: center;
+  min-width: 400px;
+}
+
+h3 {
+  cursor: pointer;
+  text-align: center;
+  font-size: 1rem;
+  margin: 2rem 0 1rem 0;
+}
+
+img {
+  cursor: pointer;
+  display: block;
+  width: 120px;
+  height: 20px;
+  margin: 2rem 0 3rem 0;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.container2 {
+  max-width: 80%;
+  margin: 13rem auto;
+  width: 800px;
+}
+
+.flexy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user {
+  max-width: 40%;
+  min-width: 122px;
+  padding-bottom: 1rem;
+}
+.user_button {
+  text-decoration: none;
+  color: white;
+  padding: 1.9rem 2.7rem;
+  font-size: 3rem;
+  background: linear-gradient(to right, #331d2e, #320927) padding-box, linear-gradient(to right, #ff8ce4, #fb02c4) border-box;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  display: inline-block;
+}
+.user_text {
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+.user_two {
+  background: linear-gradient(to right, #281b32, #14042e) padding-box, linear-gradient(to right, #c488ff, #6600e5) border-box;
+  border-radius: 50%;
+  border: 3px solid transparent;
+}
+.user_three {
+  background: linear-gradient(to right, #1d0633, #0b1a33) padding-box, linear-gradient(to right, #8e00ff, #3281ff) border-box;
+  border-radius: 50%;
+  border: 3px solid transparent;
+}
+
+footer {
+  min-width: 400px;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  padding: 0.7rem 1.7rem;
+  background-color: #332d3b;
+  border-radius: 0.2rem;
+}
+.button:first-child {
+  margin-right: 0.3rem;
+}
+.button:last-child {
+  margin-left: 0.3rem;
 }/*# sourceMappingURL=styles.css.map */

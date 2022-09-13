@@ -1,0 +1,37 @@
+.user {
+  max-width: 40%;
+  min-width: 122px;
+  padding-bottom: 1rem;
+
+  &_button {
+    text-decoration: none;
+    color: white;
+    padding: 1.9rem 2.7rem;
+    font-size: 3rem;
+    background: linear-gradient(to right, #331d2e, #320927) padding-box,
+      linear-gradient(to right, #ff8ce4, #fb02c4) border-box;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    display: inline-block;
+  }
+
+  &_text {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  &_two {
+    background: linear-gradient(to right, #281b32, #14042e) padding-box,
+      linear-gradient(to right, #c488ff, #6600e5) border-box;
+    border-radius: 50%;
+    border: 3px solid transparent;
+  }
+
+  &_three {
+    background: linear-gradient(to right, #1d0633, #0b1a33) padding-box,
+      linear-gradient(to right, #8e00ff, #3281ff) border-box;
+    border-radius: 50%;
+    border: 3px solid transparent;
+  }
+}
