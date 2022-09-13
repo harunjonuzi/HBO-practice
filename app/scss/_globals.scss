@@ -24,6 +24,10 @@ body {
 }
 
 h1 {
+  @include breakpoint-up(xlarge) {
+    font-size: 2.5rem;
+  }
+  font-size: 1.8rem;
   text-align: center;
   min-width: 400px;
 }
@@ -43,16 +47,14 @@ img {
   margin: 2rem 0 3rem 0;
 }
 
-.container {
-  max-width: 80%;
-  margin: 0 auto;
-  width: 800px;
-}
-
-.container2 {
-  max-width: 80%;
-  margin: 13rem auto;
-  width: 800px;
+.main_block {
+  width: 100%;
+  margin: 24.5rem auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  // border: 1px solid red;
 }
 
 .flexy {
