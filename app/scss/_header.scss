@@ -1,0 +1,13 @@
+.header {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  cursor: pointer;
+  display: inline-block;
+  width: 7.5rem;
+  margin: 2rem 0 3rem 0;
+}

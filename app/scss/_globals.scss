@@ -13,42 +13,12 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  height: 100vh;
+  // Colors
   color: white;
   background: rgb(29, 6, 42);
   background: linear-gradient(
     180deg,
-    rgba(2, 1, 8, 1) 0%,
-    rgba(29, 6, 42, 1) 100%
+    rgba(29, 6, 42, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
   );
-}
-
-h1 {
-  @include breakpoint-up(xlarge) {
-    font-size: 2.5rem;
-  }
-  font-size: 1.8rem;
-  text-align: center;
-  min-width: 400px;
-}
-
-h3 {
-  cursor: pointer;
-  text-align: center;
-  font-size: 1rem;
-  margin: 2rem 0 1rem 0;
-}
-
-img {
-  cursor: pointer;
-  display: block;
-  width: 120px;
-  height: 20px;
-  margin: 2rem 0 3rem 0;
-}
-
-.flexbox {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
