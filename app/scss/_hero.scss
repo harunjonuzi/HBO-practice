@@ -5,9 +5,10 @@
   align-items: center;
 
   &_section {
+    width: 800px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+
     justify-content: center;
   }
 
